@@ -1,1 +1,4 @@
-echo "grindsmygears.pagodabox.com IS NOW LIVE!!!"
+<?php
+
+
+echo "grindsmygears.pagodabox.com IS NOW LIVE!!!";

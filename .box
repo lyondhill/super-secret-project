@@ -1,0 +1,33 @@
+general: 
+  writable_directories: [ /sample/directory ]
+
+php: 
+  modules: [ mysqli, memcached ]
+
+web: 
+  document_root: /
+  far_future_expires: false
+  locations:
+    - 
+      path: / 
+      permissions:
+        -
+          rule: deny
+          who: all
+        -
+          rule: allow
+          who: 192.168.0.1
+      index_list: [ index.html, lightspeed.php, index.php]
+    -
+      path: /etc/passwd 
+      permissions:
+        -
+          rule: allow
+          who: 192.135.187.213
+        -
+          rule: deny
+          who: all
+      index_list: [ index.html, lightspeed.php, index.php]
+  error_pages:
+    404: /errors/404.html
+    403: /errors/403.php

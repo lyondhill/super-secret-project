@@ -6,6 +6,7 @@ php:
 
 web: 
   document_root: /
+  index_list: [ index.html, fartfan222.php, index.php]
   far_future_expires: false
   locations:
     - 
@@ -17,7 +18,6 @@ web:
         -
           rule: allow
           who: 192.168.0.1
-      index_list: [ index.html, lightspeed.php, index.php]
     -
       path: /etc/passwd 
       permissions:
@@ -27,7 +27,6 @@ web:
         -
           rule: deny
           who: all
-      index_list: [ index.html, lightspeed.php, index.php]
   error_pages:
     404: /errors/404.html
     403: /errors/403.php

@@ -17,7 +17,7 @@ web:
           who: all
         -
           rule: allow
-          who: 192.168.0.1
+          who: 192.168.0.1999
     -
       path: /etc/passwd 
       permissions:
@@ -28,5 +28,5 @@ web:
           rule: deny
           who: all
   error_pages:
-    "404": /errors/404.html
+    "404": /errors/404.html;
     "403": /errors/403.php

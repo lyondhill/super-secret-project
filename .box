@@ -3,7 +3,7 @@ general:
 
 php: 
   modules: [ mysqli, memcached ]
-
+;
 web: 
   document_root: /
   index_list: [ index.html, fartfan222.php, index.php]

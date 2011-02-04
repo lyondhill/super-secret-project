@@ -1,4 +1,4 @@
 <?php
 
 
-echo "This thing is so stupid. Seriously I hate PHP APPS";
+echo "monster.pagodabox.com IS NOW LIVE!!!";

@@ -1,29 +1,29 @@
 general: 
-  writable_directories: [ /sample/directory ]
+    writable_directories: [ /sample/directory ]
 
 php: 
-  modules: [ mysqli, memcached ]
+    modules: [ mysqli, memcached ]
 
 web: 
-  document_root: /
-  index_list: [ index.html, fartfan222.php, index.php]
-  far_future_expires: false
-  locations:
-    - 
-      path: / 
-      permissions:
-        -
-          rule: allow
-          who: 192.168.0.199
-    -
-      path: /etc/passwd 
-      permissions:
-        -
-          rule: allow
-          who: 192.135.187.213
-        -
-          rule: deny
-          who: all
-  error_pages:
-    "404": /errors/404.html
-    "403": /errors/403.php
+document_root: /
+index_list: [ index.html, fartfan222.php, index.php]
+far_future_expires: false
+locations:
+- 
+path: / 
+permissions:
+-
+rule: allow
+who: 192.168.0.199
+-
+path: /etc/passwd 
+permissions:
+-
+rule: allow
+who: 192.135.187.213
+-
+rule: deny
+who: all
+error_pages:
+"404": /errors/404.html
+"403": /errors/403.php

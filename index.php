@@ -1,8 +1,16 @@
 <?php
 $name = "Lyon";
-$fart = true
+$fart = false
 ?>
 
 hello <?= $name ?>
-
-my name is <?if($fart){echo "Sam<br />";}?>
+<br />
+my name is 
+<?
+if ($fart)
+{
+	echo "Sam<br />";
+}
+else
+	echo "Tommas<br />";
+?>

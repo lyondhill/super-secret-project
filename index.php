@@ -5,4 +5,4 @@ $fart = true
 
 hello <?= $name ?>
 
-my name is <?if $fart?> <?= "sam"?>
+my name is <?if($fart){echo "Sam<br />";}?>

@@ -17,4 +17,8 @@ else
 	$fart = true;
 	echo "Tommas<br />";
 }
+
+
 ?>
+
+and your dumb

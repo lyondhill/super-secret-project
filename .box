@@ -2,7 +2,19 @@ general:
     writable_directories: [ ]
 
 php: 
-    modules: [ mysqli, memcached ]
+    version: 5.3.5
+    extensions: []
+    error_reporting: E_ALL
+    display_errors: Off
+    short_open_tag: On
+    default_mimetype: text/html
+    date_timezone: US/central
+    max_execution_time: 30
+    max_input_time: 60
+    post_max_size: 8M
+    file_uploads: On
+    upload_max_filesize: 2M
+    max_file_uploads: 20
 
 web: 
     document_root: /

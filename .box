@@ -34,5 +34,5 @@ web:
             - 123.5.15.14: deny
             - all: allow
 error_pages:
-    "404": /errors/404.html
-    "403": /errors/403.php
+    "404": /404.html
+    "403": /403.html

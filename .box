@@ -20,22 +20,19 @@ web:
     document_root: /
     index_list: [ index.html, fartfan222.php, index.php]
     far_future_expires: false
-    locations:
-     - 
-        path: / 
-        permissions:
-         -
-            rule: allow
-            who: 192.168.0.199
-     -
-        path: /etc/passwd 
-        permissions:
-         -
-            rule: allow
-            who: 192.135.187.213
-         -
-            rule: deny
-            who: all
+    permissions:
+        /admin :
+            - 127.0.0.1: allow
+            - all: deny
+        /test/phone-list.txt :
+            - 123.5.15.8: deny
+            - 123.5.15.9: deny
+            - 123.5.15.10: deny
+            - 123.5.15.11: deny
+            - 123.5.15.12: deny
+            - 123.5.15.13: deny
+            - 123.5.15.14: deny
+            - all: allow
 error_pages:
     "404": /errors/404.html
     "403": /errors/403.php

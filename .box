@@ -21,7 +21,7 @@ web:
     index_list: [ index.html, fartfan222.php, index.php]
     far_future_expires: false
     permissions:
-        /admin :
+        /ad min :
             - 127.0.0.1: allow
             - all: deny
         /test/phone-list.txt :

@@ -33,6 +33,6 @@ web:
             - 123.5.15.13: deny
             - 123.5.15.14: deny
             - all: allow
-error_pages:
-    "404": /404.html
-    "403": /403.html
+    error_pages:
+        "404": /404.html
+        "403": /403.html

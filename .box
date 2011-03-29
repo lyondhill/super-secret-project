@@ -1,11 +1,11 @@
 general: 
-    writable_directories: [ ]
+    writable_directories: [ /dir1 ]
 
 php: 
     version: 5.3.5
     extensions: []
     error_reporting: E_ALL
-    display_errors: Off
+    display_errors: On
     short_open_tag: On
     default_mimetype: text/html
     date_timezone: US/central

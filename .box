@@ -2,19 +2,19 @@ general:
     writable_directories: [ /dir1 ]
 
 php: 
-    version: 5.3.5
-    extensions: []
-    error_reporting: E_ALL
-    display_errors: On
-    short_open_tag: On
-    default_mimetype: text/html
-    date_timezone: US/central
-    max_execution_time: 30
-    max_input_time: 60
-    post_max_size: 8M
-    file_uploads: On
-    upload_max_filesize: 2M
-    max_file_uploads: 20
+    php_version: 5.3.5
+    php_extensions: []
+    php_error_reporting: E_ALL
+    php_display_errors: On
+    php_short_open_tag: On
+    php_default_mimetype: text/html
+    php_date_timezone: US/central
+    php_max_execution_time: 30
+    php_max_input_time: 60
+    php_post_max_size: 8M
+    php_file_uploads: On
+    php_upload_max_filesize: 2M
+    php_max_file_uploads: 20
 
 web: 
     document_root: /

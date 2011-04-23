@@ -2,7 +2,7 @@ general:
     writable_directories: [ /dir1 ]
 
 php: 
-    php_version: 5.3.5
+    php_version: 5.2.7
     php_extensions: []
     php_error_reporting: E_ALL
     php_display_errors: On

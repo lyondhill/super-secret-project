@@ -221,7 +221,7 @@ switch($color)
 
 function outputHandle($aliases)
 {
-if (preg_match('^[[:blank:]]*cd[[:blank:]]*$', @$_REQUEST['command']))
+if (preg_match('^[[:blank:]]*cd[[:blank:]]*$', @$_REQUEST['command'], $regs))
 {
 	$_SESSION['cwd'] = getcwd(); //dirname(__FILE__);
 }

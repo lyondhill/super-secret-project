@@ -37,9 +37,9 @@
 
 $passwd = array('lyon' => 'lyon2376');
 
-//$aliases = array('la' 	=> 'ls -la',
-//		'll' 	=> 'ls -lvhF',
-//		'dir'	=> 'ls' );
+$aliases = array('la' 	=> 'ls -la',
+		'll' 	=> 'ls -lvhF',
+		'dir'	=> 'ls' );
 
 /* do NOT change anything below this line */
 

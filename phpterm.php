@@ -221,11 +221,11 @@ switch($color)
 
 function outputHandle($aliases)
 {
-if (ereg('^[[:blank:]]*cd[[:blank:]]*$', @$_REQUEST['command']))
+if (preg_match('^[[:blank:]]*cd[[:blank:]]*$', @$_REQUEST['command']))
 {
 	$_SESSION['cwd'] = getcwd(); //dirname(__FILE__);
 }
-elseif(ereg('^[[:blank:]]*cd[[:blank:]]+([^;]+)$', @$_REQUEST['command'], $regs))
+elseif(preg_match('^[[:blank:]]*cd[[:blank:]]+([^;]+)$', @$_REQUEST['command'], $regs))
 {
 	// The current command is 'cd', which we have to handle as an internal shell command. 
 	// absolute/relative path ?"

@@ -10,7 +10,7 @@ my name is
 if ($fart)
 {
 	$fart = false;
-	echo "Sam<br />";
+	echo "fanny<br />";
 }
 else
 {

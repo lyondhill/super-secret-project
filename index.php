@@ -20,5 +20,3 @@ else
 
 
 ?>
-
-and your dumb

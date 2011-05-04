@@ -3,4 +3,4 @@ $name = "Lyon";
 $fart = false;
 ?>
 
-hello <?= $name ?>
+hello guy

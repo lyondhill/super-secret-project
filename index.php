@@ -2,7 +2,7 @@
 $name = "Lyon";
 $fart = false;
 ?>
-hello
+hello <br />
 hello <?= $name ?>
 <br />
 my name is 

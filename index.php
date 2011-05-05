@@ -2,6 +2,7 @@
 $name = "Lyon";
 $fart = false;
 ?>
+<h1>WHAT</h1>
 hello <br />
 hello <?= $name ?>
 <br />

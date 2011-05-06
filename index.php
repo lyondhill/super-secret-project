@@ -18,5 +18,4 @@ else
 	echo "Tommas<br />";
 }
 
-
 ?>

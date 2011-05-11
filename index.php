@@ -1,6 +1,6 @@
 <?php
 $name = "Lyon";
-$fart = false;
 ?>
 hello <?= $name ?>
 <br />
+I love you 

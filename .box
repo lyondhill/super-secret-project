@@ -1,3 +1,6 @@
 error_pages:
   "404": /404.html
   "403": /403.html
+
+
+post_deploy_urls: [ /, /, ]

@@ -3,4 +3,4 @@ php_extensions: [mcrypt, mysqli, mysql, mbstring]
 url_rewrites:
   - %{REQUEST_FILENAME} !-d
   - %{REQUEST_FILENAME} !-f
-  - ^(.*)$ index.php?url=$1$query_string last
+  - ^(.*)$ index.php?url=$1 [QSA,L]

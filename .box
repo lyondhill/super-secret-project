@@ -1,1 +1,8 @@
 shared_writable_dirs: [/app/tmp]
+
+url_rewrites:
+    - 
+        rule: ^/index.php /location_b.php
+        conditions:
+            - !-d $request_filename
+            - !-f $request_filename

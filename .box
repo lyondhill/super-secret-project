@@ -4,5 +4,5 @@ url_rewrites:
     - 
         rule: ^/index.php /location_b.php
         conditions:
-            - \!-d $request_filename
-            - \!-f $request_filename
+            - "!-d $request_filename"
+            - "!-f $request_filename"

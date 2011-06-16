@@ -1,0 +1,1 @@
+shared_writable_dirs: [/app/tmp]
